@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Create variable to store counter
+Create variable to store the first number to be printed PrintNow
+
+Loop 
+print PrintNow
+Print PrintNow + 1 
+When Increment variable <=50 then variable +2 
+Increment counter + 1
+Else WHEN increment variable >50 end
