@@ -2,3 +2,11 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Create a variable to store the location in the warehouse that is to be found
+Figure out where the person currently is
+Guide them to the furthest southwest corner to begin the search
+Begin the walk north, tracking the path and comparing it to the variable of the location
+If the current location and the variable match, print “Stop, you’re there!” if not match, continue to the furthest north corner
+Shift the walker to the right one increment and begin south
+If the current location and the variable match, print “stop you’re there!”
+Repeat the shift, walk north, shift, walk south until the walker is either at the variable point or reaches the furthest southeast corner.
