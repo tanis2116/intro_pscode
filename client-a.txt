@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Create a variable to store a number between 1-10
+Create a variable to store number of attempts
+Create a function to randomly select a number between 1-10
+Make variable equal to function result
+Prompt user with game details such as “between 1-10 and 3 chances to guess”
+Prompt user for integer input - error if not a number between 1-10
+Compare provided value to saved variable
+If correct, print “you win”
+If not correct print “you lose” 
+Increment counter
+repeat from “prompt user for integer” step
+When attempts counter >3 stop game
+Print “You lose forever!”
